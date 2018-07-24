@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hangman</title>
+        <link href="/styles/styles.css" rel="stylesheet">
+        <link href="/images/favicon.png" rel="icon">
+    </head>
+    <body>
+        <div class="header">
+            <div id="header--content">
+                <div class="header--inline-block">
+                    <img src="/images/hangman-logo.jpg" alt="">
+                </div>
+                <div class="header--inline-block">
+                    <h1 class="header__title">Hangman Game</h1>
+                    <h2 class="header__subtitle">Can you guess me?</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="puzzle" class="puzzle"></div>
+            <p id="guesses"></p>
+            <button id="reset" class="button">Reset</button>
+        </div>
+        <script src="/scripts/requests.js"></script>
+        <script src="/scripts/hangman.js"></script>
+        <script src="/scripts/app.js"></script>
+    </body>
+</html>
